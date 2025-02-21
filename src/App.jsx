@@ -30,7 +30,7 @@ function App() {
   return (
     <>
     <div>
-      <button className='p-2 bg-indigo-700' onClick={hanndlechangecount}></button>
+      <button className='p-2 bg-indigo-700' onClick={handlechangecount}></button>
     </div>
  <div className='bg-gray-200 h-screen overflow-y-auto'>
       <NavBar productCount={totalCount}/>
